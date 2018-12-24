@@ -1,0 +1,106 @@
+public class Equipment{
+
+	private int id;
+
+	private String name;
+
+	private int equipmentTypeId;
+
+	private String equipmentType;
+
+	private String model;
+
+	private String toHouseTime;
+
+	private String management;
+
+	private int disorder;
+
+	private Date createTime;
+
+	private Date refreshTime;
+
+	public int getId(){
+	return id;
+	}
+
+	public void setId(int id){
+	this.id = id;
+	}
+
+	public String getName(){
+	return name;
+	}
+
+	public void setName(String name){
+	this.name = name;
+	}
+
+	public int getEquipmentTypeId(){
+	return equipmentTypeId;
+	}
+
+	public void setEquipmentTypeId(int equipmentType){
+	this.equipmentTypeId = equipmentType;
+	}
+
+	public String getEquipmentType(){
+	return equipmentType;
+	}
+
+	public void setEquipmentType(String equipmentType){
+	this.equipmentType = equipmentType;
+	}
+
+	public String getModel(){
+	return model;
+	}
+
+	public void setModel(String model){
+	this.model = model;
+	}
+
+	public String getToHouseTime(){
+	return toHouseTime;
+	}
+
+	public void setToHouseTime(String toHouseTime){
+	this.toHouseTime = toHouseTime;
+	}
+
+	public String getManagement(){
+	return management;
+	}
+
+	public void setManagement(String management){
+	this.management = management;
+	}
+
+	public int getDisorder(){
+	return disorder;
+	}
+
+	public void setDisorder(int disorder){
+	this.disorder = disorder;
+	}
+
+	public Date getCreateTime(){
+	return createTime;
+	}
+
+	public void setCreateTime(Date createTime){
+	this.createTime = createTime;
+	}
+
+	public Date getRefreshTime(){
+	return refreshTime;
+	}
+
+	public void setRefreshTime(Date refreshTime){
+	this.refreshTime = refreshTime;
+	}
+
+	public String toString(){
+	return "id = " + id + " name = " + name;
+	}
+}
