@@ -103,4 +103,8 @@ public class Equipment{
 	public String toString(){
 	return "id = " + id + " name = " + name;
 	}
+	
+	public int hashCode(){
+	return name.hashCode() + disorder * 2;
+	}
 }
